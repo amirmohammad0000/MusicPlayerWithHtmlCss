@@ -1,0 +1,195 @@
+/************************************************************************/ /* Start Style All */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Segoe UI;
+  user-select: none;
+}
+/************************************************************************/ /* End Style All */
+
+/************************************************************************/ /* Start Style Music Player */
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("./../../Image/m2.png");
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.section_music_player {
+  width: 430px;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffaee;
+  border-radius: 20px;
+}
+
+.section_header_music_player {
+  width: 100%;
+  height: 75%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section_back_header_music_player {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #222;
+}
+
+.section_inner_back_header_music_player {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 1000px;
+  color: #929191;
+}
+
+.section_rewind_header_music_player {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #222;
+}
+
+.section_inner_rewind_header_music_player {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #ffe7d4;
+  border-radius: 1000px;
+  color: #929191;
+}
+
+.section_play_header_music_player {
+  width: 25%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 14px;
+  color: #222;
+}
+
+.section_inner_play_header_music_player {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #fdefcd;
+  color: #f26600;
+  font-size: 20px;
+  border-radius: 1000px;
+  margin-bottom: 8px;
+}
+
+.section_forward_header_music_player {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #222;
+}
+
+.section_inner_forward_header_music_player {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #ffe7d4;
+  border-radius: 1000px;
+  color: #929191;
+}
+
+.section_skip_header_music_player {
+  width: 15%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #222;
+}
+
+.section_inner_skip_header_music_player {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  border-radius: 1000px;
+  color: #929191;
+}
+
+.section_footer_music_player {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.section_progress_footer_music_player {
+  width: 90%;
+  height: 12px;
+  background: linear-gradient(to right, #fff2e1 0%, #fce9d0 100%);
+  border-radius: 1000px;
+  border: 1px solid #fdcf5b;
+  cursor: pointer;
+}
+
+.section_inner_progress_footer_music_player {
+  width: 40%;
+  height: 100%;
+  background: linear-gradient(to right, #fdcf5b 0%, #ff7509 100%);
+  border-radius: 1000px;
+}
+
+.section_time_footer_music_player {
+  width: 90%;
+  height: 82%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/************************************************************************/ /* End Style Music Player */
